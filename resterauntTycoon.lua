@@ -2,6 +2,7 @@
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/r0cp9NrM"))(); --UI Library
 local ReplicatedStorage = game:GetService("ReplicatedStorage");
 local TycoonEvent = ReplicatedStorage.Events.ClientTycoonInput
+print("Last Updated: 01/07/2022 9:52 AM")
 repeat wait(1) until game:IsLoaded()
 --functions--
 local function getDiner()
